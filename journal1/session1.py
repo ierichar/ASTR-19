@@ -1,11 +1,14 @@
-# Session 1
-# ASTR-19-01 Spring 2022
-# March 29th, 2022
-# Ian Richardson
-# This program prints out my full name, my preferred pronouns, and two
-# sentences about my favorite movie and my favorite food.
+'''
+    Session 1
+    ASTR-19-01 Spring 2022
+    March 29th, 2022
+    Ian Richardson
 
-def print_name():
+    This program prints out my full name, my preferred pronouns, and two
+    sentences about my favorite movie and my favorite food.
+'''
+
+def print_profile():
     print('Ian Edward Richardson (he\\him)')
     print('My favorite movie as of writing this, is Mad Max: Fury Road '
         'due to its amazing world building and cinemetography. ')
@@ -13,7 +16,8 @@ def print_name():
         'from Original Joe\'s in San Jose.')
 
 def main():
-    print_name()
+    print_profile()
 
+# Reminder: When running the program, this executes first
 if __name__=="__main__":
     main()
