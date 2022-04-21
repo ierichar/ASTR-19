@@ -9,11 +9,9 @@
     prints the result. This program uses an if statement that executes
     if the result is larger than 27 and prints “YAY!”.
 '''
-import math
 
 def f(x):
-    # f(x) = x**3 + 8
-    return (math.pow(x, 3) + 8)
+    return (x**3 + 8)
 
 def main():
     if (f(9) > 27):

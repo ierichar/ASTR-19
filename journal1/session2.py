@@ -23,21 +23,12 @@ def prod(a, b):
     return a * b
 
 def main():
-    try:
-        a = float(input('float 1: '))
-        b = float(input('float 2: '))
-        c = int(input('integer 1: '))
-        d = int(input('integer 2: '))
-
-        print('Sum of Floats: ', sum(a, b), 
-        'Type:', type(sum(a, b))) 
-        print('Difference of Integers: ', diff(c, d),
-        'Type:', type(diff(c, d)))
-        print('Product of Float and Integer: ', prod(a, b),
-        'Type:', type(prod(a, b)))
-        
-    except ValueError:
-        print('Enter appropriate values!')
+    print('Sum of Floats: ', sum(float(8.125), float(8.125)), 
+    'Type:', type(sum(float(8.125), float(8.125)))) 
+    print('Difference of Integers: ', diff(int(1002), int(924)),
+    'Type:', type(diff(int(1002), int(924))))
+    print('Product of Float and Integer: ', prod(float(8.125), int(1002)),
+    'Type:', type(prod(float(8.125), int(1002))))
 
 if __name__=="__main__":
     main()
